@@ -20,7 +20,7 @@ meson compile -C builddir
 This project uses hardcoded offsets, that were taken on a Windows 11 22H2, build version `22261.4890`. To target another version, updating the offsets is required.
 All the offsets of the gadgets used are located within `include/jop/offsets.h`.
 
-While not all gadgets have exact equivalents on other version, the central elements do, and others have remplacements (`pop rax ; ... ; jmp XXX`, `call XXX ; ... ; jmp XXX`).
+While not all gadgets have exact equivalents on other version, the most crucial elements do, and others have remplacements (`pop rax ; ... ; jmp XXX`, `call XXX ; ... ; jmp XXX`).
 
 ## Credits
 
